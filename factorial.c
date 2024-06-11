@@ -6,9 +6,14 @@ int main()
   int n;
   printf("Enter a number of which factorial is to be found\n");
   scanf("%d",&n);
-  if(n<=0)
+  if(n<0)
   {
     printf("Invalid Number! Enter a positive number!\n");
+    exit(0);
+  }
+  if(n==0)
+  {
+    printf("The factorial of 0 is: 1\n");
     exit(0);
   }
   int fact=factorial(n);
