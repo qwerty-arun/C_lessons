@@ -1,7 +1,7 @@
 CC=clang
 CFLAGS=-I.
 DEPS = 
-OBJ = largest_perimeter_polygon.o 
+OBJ = majority_element.o 
 
 %.o: %.c $(DEPS)
 	$(CC) -c -g -o $@ $< $(CFLAGS)

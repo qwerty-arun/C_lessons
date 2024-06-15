@@ -2,17 +2,17 @@
 #include <stdlib.h>
 int main()
 {
-  int size;
-  printf("Enter the number of elements in the array (>=3):\n");
-  scanf("%d",&size);
-  if(size<=0 || size<3)
+  int size=5;
+  /* printf("Enter the number of elements in the array (>=3):\n");
+  scanf("%d",&size); */
+  /* if(size<=0 || size<3)
   {
     printf("Enter valid number!\n");
     exit(0);
-  }
-  int arr[size];
+  } */
+  int arr[5]= {12,6,9,3,1};
 
-  printf("Enter the elements in the array:\n");
+  /* printf("Enter the elements in the array:\n");
   for(int i=0;i<size;i++)
   {
     scanf("%d",&arr[i]);
@@ -22,7 +22,7 @@ int main()
       exit(0);
     }
   }
-
+*/
   int min=0;
   for(int i=0;i<size-1;i++)
   {
