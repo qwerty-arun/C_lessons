@@ -1,0 +1,31 @@
+1) MY SOLUTION FOR CHECKING IF TWO INTEGERS HAVE OPPOSIT SIGN
+#include <stdio.h>
+int main()
+{
+	int a=-1,b=2;
+	int sign;
+	sign=-(a*b>0); // 0 if they are of opposite sign and -1 if they are of same sign
+	sign=-1*sign;//making -1, 1
+	printf("%d\n",sign);
+	return 0;
+}
+
+OUPUT: 0
+
+IF INPUT a=1;b=2; 
+OUPUT: 1
+The next statement of sign is inefficient and is useless. 
+
+2) BIT TWIDDLING HACKS SOLUTION
+#include <stdio.h>
+int main()
+{
+	int a=-1,b=2;
+	bool sign = ((a ^ b) < 0); // true if x and y have opposite signs
+	printf("%d\n",sign);
+	return 0;
+}
+
+OUTPUT: 1
+This solution is better as it computes in just one line.
+
