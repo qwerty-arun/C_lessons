@@ -1,0 +1,8 @@
+Time in 24 hour format: 4:27:56 
+Time in 12 hour format: 4:27:56 am
+
+Invalid Time input!
+when hours>=24
+
+Time in 24 hour format: 14:27:56 
+Time in 12 hour format: 2:27:56  pm
