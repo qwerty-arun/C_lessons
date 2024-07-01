@@ -1,0 +1,11 @@
+The expression sizeof(int) * CHAR_BIT - 1 calculates the number of bits in an int minus one. 
+For a typical 32-bit system, this would be 32 - 1 = 31. 
+Shifting v right by 31 bits propagates the sign bit (most significant bit) to all the bits in the mask. 
+So, if v is negative, mask will be -1 (all bits set to 1), and if v is positive, mask will be 0.
+
+TWO METHODS FOR COMPUTING THE RESULT:- 
+r = (v + mask) ^ mask;
+This works because if mask is -1, adding mask to v effectively subtracts 1 from v, and XORing the result with mask inverts all bits. For negative v, this turns it into its positive counterpart. For positive v, it remains the same.
+
+r = (v ^ mask) - mask;
+This works because XORing v with mask flips all the bits if mask is -1 (i.e., v is negative), converting v to its positive equivalent. Subtracting mask (-1) from it adds 1, completing the two's complement negation.
