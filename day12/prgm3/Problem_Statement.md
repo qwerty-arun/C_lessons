@@ -1,0 +1,1 @@
+# Accept a list of integers from the user, store them in a dynamically allocated array and then print them out.
