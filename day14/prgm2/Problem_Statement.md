@@ -1,0 +1,1 @@
+# Write a program which clearly illustrates the use of pointers and double pointers. Dereference those pointers to print the value stored in those addresses.
