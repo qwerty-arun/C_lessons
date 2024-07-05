@@ -1,0 +1,13 @@
+The program throwed the following error when executed: 
+Enter no. of elements in the list
+3
+Enter the data for 3 elements
+1
+Memory Allocation failed!
+2
+Memory Allocation failed!
+3
+Memory Allocation failed!
+No. of elements in the list: 1
+
+Conclusion: The program doesn't work for now, but I have a good understanding of how the program works.
