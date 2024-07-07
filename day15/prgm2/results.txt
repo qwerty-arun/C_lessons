@@ -1,0 +1,7 @@
+OUTPUT: 
+Address contained in ii: 113077704
+Address contained in ii: 113077700
+Address contained in ii: 5
+Value at the address contained in aa: 4294967235
+
+The first two printf's execute just fine but the next two fails
