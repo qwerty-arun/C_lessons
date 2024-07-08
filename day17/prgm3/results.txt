@@ -1,0 +1,5 @@
+Output of the program is: 
+1904134344 -1904134328 505109944 -2000568560 7.999900
+
+Explanation: 
+Don't truncate a float value to an integer using %d in print statements. Vice-versa is also true.
