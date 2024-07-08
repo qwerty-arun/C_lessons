@@ -1,0 +1,12 @@
+Current Features of the circular list program:- 
+1) Printing the elements
+2) Find the length of the list
+3) Insert node at the end of the list
+4) Insert node at the front of the list
+
+Drawbacks:- 
+1) Doesn't accept no. of elements from the user
+2) Doesn't have a seperate function for allocation of memory
+3) Starting node condition
+4) Doesn't have infinite while loop
+5) No delete operation yet
