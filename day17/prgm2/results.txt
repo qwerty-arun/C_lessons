@@ -1,0 +1,11 @@
+For the program, the output is: 
+45265612
+29274
+
+Why is the second one not 20? The reason is when the controll comes back from fun(), 'i' dies. So, even if we have its address in 'p', we can't access 'i' since it is already dead. If we want 'i' to survive, then we should declare it as 'static' .
+
+For the modified program, the output is:
+1007067184
+20
+
+Now, *p does hold the value of 'i' even after control comes back to calling function.
