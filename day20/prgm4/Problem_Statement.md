@@ -1,0 +1,1 @@
+# Write a program to draw a linear or quadratic curve using singly linked list. Each node represents a point and points to next the node which is the next point on the curve. Print the results and plot the graph. 
