@@ -1,0 +1,16 @@
+----------POINTER ARITHMETIC USING INTEGER ARRAYS----------
+Array elements using pointer arithmetic:
+*(ptr + 0) = 10
+*(ptr + 1) = 20
+*(ptr + 2) = 30
+*(ptr + 3) = 40
+*(ptr + 4) = 50
+
+After incrementing by 3, ptr points to: 40
+
+----------POINTER ARITHMETIC USING STRING ARRAYS----------
+String using pointer arithmetic:
+H e l l o ,   W o r l d ! 
+
+----------ILLUSTRATING POINTER SUBTRACTION----------
+Number of elements between ptr1 and ptr2: 4

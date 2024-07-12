@@ -1,0 +1,13 @@
+Output if 'fDontNegate'=0 (flag indicating that we should not negate v): -10
+Output if 'fDontNegate'=1 (flag indicating that we should not negate v): 10
+This line calculates the value of r using a combination of bitwise XOR and arithmetic operations.
+
+EXPLANATION: 
+fDontNegate - 1: If fDontNegate is 0, then fDontNegate - 1 is -1. If fDontNegate is 1, then fDontNegate - 1 is 0. 
+fDontNegate ^ (fDontNegate - 1): This XOR operation produces -1 if fDontNegate is 0, and 1 if fDontNegate is 1.
+
+Therefore:
+
+When fDontNegate is 0: (0 ^ -1) results in -1, so r = -1 * v = -10.
+When fDontNegate is 1: (1 ^ 0) results in 1, so r = 1 * v = 10.
+In this particular case, since fDontNegate is 0, r will be -10.
