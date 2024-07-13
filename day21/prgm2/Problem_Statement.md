@@ -1,0 +1,4 @@
+# WRITE A PROGRAM OR A FUNCTION TO FIND THE NTH NODE FROM THE END OF THE LIST
+## Solution 1: Start with first node and calculate no. of nodes present after that node. If no. of nodes < n-1 , then return saying "fewer no. of nodes in the list". If no. of nodes > n-1 , then go to the next node. Continue till no. of nodes = n-1 . Time: O(N^2) and Space: O(1). </br>
+## Solution 2: (size-n+1)th term from the beginning. There are two ways to achieve this: one by using hash table and other by simply by traversing the list and calculating the size of the list. Time: O(N) and Space: O(N). </br>
+## Solution 3: Using two pointers: ptemp and pnth. Initially both point to head of the list. pnth starts only after ptemp has made 'n' moves. Then both move forward till ptemp reaches the end of the list. Time: O(N) and Space: O(1). </br>
