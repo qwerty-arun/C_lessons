@@ -1,0 +1,10 @@
+Why does the algorithm work?
+In the Floyd cycle finding algorithm,
+notice that the tortoise and the hare will meet when they are n × L, where L is the loop length.
+Furthermore, the tortoise is at the midpoint between the hare and the beginning of the sequence
+because of the way they move. Therefore the tortoise is n × L away from the beginning of the
+sequence as well. If we move both one step at a time, from the position of the tortoise and from
+the start of the sequence, we know that they will meet as soon as both are in the loop, since they
+are n × L, a multiple of the loop length, apart. One of them is already in the loop, so we just move
+the other one in single step until it enters the loop, keeping the other n × L away from it at all
+times.
