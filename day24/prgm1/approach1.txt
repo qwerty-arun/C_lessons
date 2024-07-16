@@ -1,0 +1,2 @@
+The program above is a brute-force approach. We jsut compare every node pointer in the first list with every other node pointer int he second list by which the matching node pointers will lead us to intersecitng node. But the time complexity in this case will be O(mn) which is actually high. 
+Question: Can we solve this by sorting technique.

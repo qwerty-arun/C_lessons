@@ -1,0 +1,8 @@
+Can we solve the problem using hash tables? YES.
+
+Algorithm: 
+1) Select a list which has less no. of nodes (random if you don't know)
+2) Now, traverse the other list and for each node pointer of this list check whetherthe same node pointer exists in the hash table.
+3) If there is a merge point for the given lists then we will definitely enounter the node pointer in the hash table.
+
+Time complexity: time for creating the hash table + time for scanning the second list = O(m)+O(n). Space complexity: O(n) or O(m).

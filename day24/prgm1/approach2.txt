@@ -1,0 +1,11 @@
+Can we use sorting technique to solve? NO..
+Take a look at this algorithm:
+1) Take first list node pointers and keep them in some array and sort them.
+2) Take second list node pointers and keep them in some array and sort them. 
+3) After sorting, use two indexes: one for the first sorted array and the other for the second sorted array. 
+4) Start comparing values at the indexes and increment the index according to whichever has the lower value(increment only if the values are not equal).
+5) At any point, if we are able to find two indexes whose values are the same, then that indicates that those two nodes are pointing to the same node and we return that node.
+
+Time Complexity: Time for sorting lists + Time for scanning (for comparing) = O(mlogm)+O(nlogn)+O(m+n). Space complexity: O(1).
+
+What is the problem? Well, there can be many repeated elememts because after the merging poitn, all node pointers are the same for both the lists. The algo works fine only in one case and it is when bbboth list have the ending node at their merge point.
