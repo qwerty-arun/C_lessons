@@ -1,0 +1,13 @@
+Solving the problem using stacks:
+1) Create two stacks: one for the first list and one for the second.
+2) Traverse the first and push all the node addresses onto the first stack.
+3) Traverse the second list and push all the node addresses onto the second stack.
+4) Now both stacks contain the node address of the corresponding lists.
+5) Now compare the top node address of the both stacks.
+6) If they are the same, take the top elements from both the stacks and keep them in some temporary variable.
+7) Continue this process until the top node addresses of the stacks are not the same.
+8) This point is the one where the lists merge into a single list.
+9) Return the value of the temporary variable.
+
+Time Complexity: O(m+n) for scanning both the list.
+Space Complexity: O(m+n) for creating two stacks for both the lists.

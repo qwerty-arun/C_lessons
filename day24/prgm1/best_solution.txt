@@ -1,0 +1,7 @@
+Most efficient approach: 
+1) Find the lenghts (L1 and L2) of both lists - O(n) + O(m) = O(max(m,n)).
+2) Take the difference d of the lengths - O(1)
+3) Make d steps in the longer list.
+4) Step in both list in parallel until links to next node match. O(min(m,n)).
+5) Total time complexity: O(max(m,n))
+6) Space complexity: O(1).
