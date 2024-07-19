@@ -1,0 +1,16 @@
+Results 1 of union program: 
+A
+65
+3163295268
+3163295268
+
+Results 2 (after updating t.i=66) of union program: 
+A
+66
+B
+138934724
+138934724
+
+Results of enum program:
+1) If var = wed, then the output will be 2
+2) If var = wed is commented out, then the output will be 0
