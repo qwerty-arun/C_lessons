@@ -14,3 +14,46 @@ B
 Results of enum program:
 1) If var = wed, then the output will be 2
 2) If var = wed is commented out, then the output will be 0
+3) If the program is: 
+#include <stdio.h>
+int main()
+{
+	enum days{mon,tues,wed}var;
+	var = wed;
+	printf("%d\n",var);
+	enum point{x=0,y,z=5}p;
+	printf("%d\n",y);
+	return 0;
+}
+
+OUTPUT: 2, 1
+
+4) If the program is:
+#include <stdio.h>
+int main()
+{
+	enum days{mon,tues,wed}var;
+	var = wed;
+	printf("%d\n",var);
+	enum point{x=0,y,z=5}p;
+	printf("%d\n",z);
+	return 0;
+}
+
+OUTPUT: 2 5
+
+5) If the program is: 
+#include <stdio.h>
+int main()
+{
+	enum days{mon,tues,wed}var;
+	var = wed;
+	printf("%d\n",var);
+	enum point{x=8,y,z=5}p;
+	printf("%d\n",x);
+	printf("%d\n",y);
+	printf("%d\n",z);
+	return 0;
+}
+
+OUTPUT: 2 8 9 5
