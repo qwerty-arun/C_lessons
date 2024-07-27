@@ -1,0 +1,1 @@
+Time Complexity: O(n) and Space Complexity: O(n) -> for stack. 

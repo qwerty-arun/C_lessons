@@ -1,0 +1,3 @@
+The key is to use a 2x pointer. Take a pointer that moves at 2x speed. If the length is even, then the pointer will be NULL, otherwise it will point to the last node.
+
+Time complexity: O(n/2) = O(n) and Space complexity: O(1).
