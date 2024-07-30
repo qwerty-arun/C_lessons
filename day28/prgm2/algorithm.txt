@@ -1,0 +1,5 @@
+Algorithm:
+1) Store the mid and last pointers of the circular linked list using Floyd cycle finding algorithm
+2) Make the second half circular.
+3) Make the first half circular.
+4) Set head pointers of the two linked lists.
