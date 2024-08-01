@@ -1,0 +1,1 @@
+# Josephus Circle: N people have decided to elect a leader by arranging themselves in a circle and eliminating every Mth person around the circle, closing ranks as each person drops out. Find which person will be the last one remaining (with rank 1).
