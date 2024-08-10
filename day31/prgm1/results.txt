@@ -1,0 +1,5 @@
+The input string is "() (()[()])\n"
+OUTPUT: The symbols are balanced.
+
+If the input string is ") (()[()])"
+OUPUT: The symbols are NOT balanced.
