@@ -1,0 +1,4 @@
+This code has defined recedence of operators in a seperate function.
+This is why the code works fine. 
+INPUT: A*B-(C+D)+E
+OUTPUT: Postfix expression: AB*CD+-E+

@@ -1,0 +1,1 @@
+"Stack Overflow!" is being printed infinite times, which means push operation is not happening correctly.
