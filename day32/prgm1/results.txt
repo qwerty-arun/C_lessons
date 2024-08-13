@@ -1,0 +1,14 @@
+First Program output: 
+1 pushed to stack
+2 pushed to stack
+3 pushed to stack
+� pushed to stack
+' pushed to stack
+5 pushed to stack
+� pushed to stack
+Final Result: -14
+
+Inference: Every character in the array is getting pushed onto the stack. The result is not correct.
+
+Second Program output:
+Result of postfix evaluation: 2
