@@ -1,0 +1,8 @@
+For the following input: char str[10] = "ababXbaba";
+Output: Palindrome! 
+
+But for the following input: char str[10] = "ababXbabaa";
+Output: Not Palindrome!
+
+But for the following input: char str[10] = "ababXbabaa\n";
+Output: Not Palindrome!
