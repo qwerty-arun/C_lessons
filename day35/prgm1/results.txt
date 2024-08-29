@@ -1,0 +1,7 @@
+For the following input: char str[10] = "ababXbaba";
+Output: Palindrome! 
+
+But for the following input: char str[10] = "ababXbabaa";
+Output: Not Palindrome!
+
+But, can the problem be solved using stacks?
